@@ -84,12 +84,18 @@
   top: var(--overlay-top);
   right: var(--overlay-right);
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 .card_overlay-content {
   font-size: var(--overlay-font-size);
-  text-shadow: 0 0 2px white;
+}
+
+@supports (-webkit-text-stroke: 0.3px white) or (text-stroke: 0.3px white) {
+  .card_overlay-content {
+    -webkit-text-stroke: 0.3px white;
+    text-stroke: 0.3px white;
+  }
 }
 
 .card_content {
@@ -120,6 +126,41 @@
   border: var(--border);
 }
 
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.overlay1 {
+  background-color: rgba(85, 10, 10, 0.35);
+}
+
+.overlay2 {
+  background-color: rgba(196, 177, 177, 0.35);
+}
+
+.overlay3 {
+  background-color: rgba(77, 20, 88, 0.35);
+}
+
+.overlay4 {
+  background-color: rgba(32, 117, 67, 0.35);
+}
+
+.overlay5 {
+  background-color: rgba(255, 0, 0, 0.35);
+}
+
+.overlay6 {
+  background-color: rgba(149, 172, 18, 0.35);
+}
+
+.overlay7 {
+  background-color: rgba(255, 217, 0, 0.35);
+}
+
 .like-icon {
   width: 39px;
   height: 36px;
@@ -128,7 +169,7 @@
 
 .card__icon-button {
   background: none;
-  border: none; 
+  border: none;
 }
 
 .section-button {
@@ -170,7 +211,7 @@
 
 .dialog__content {
   display: flex;
-  gap: 12px; 
+  gap: 12px;
 }
 
 .dialog__floppy-icon {
