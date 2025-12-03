@@ -1,1 +1,45 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter';
+    --accent-font: 'Press Start 2P';
+
+    --header-title-font-size: clamp(14px, 0.8rem + 1vw, 23px);
+    --logo-font-size: clamp(49px, 2.5rem + 2vw, 65px);
+    --overlay-font-size: 14px;
+    --like-button-font-size: 14px;
+    --card-font-size: 18px;
+    
+    --header-margin: 102px 0;
+    --dialog-close-margin: 30px 0 0;
+    --button-save-margin: 30px auto 100px;
+    --button-save-padding: 12px 16px;
+    --card-content-padding: 25px;
+    --card-title-padding: 3px 10px;
+    --dialog-padding: 30px 42px;
+
+    --header-gap: 20px;
+    --main-gap: 20px;
+    --card-content-gap: 25px;
+    --card-content-text-gap: 27px;
+
+    --page-width: min(100% - 40px, 696px);
+    --header-height: 40dvb;
+    --like-button-height: 38px;
+    --like-button-width: 130px;
+    --button-save-width: min(335px, 81.6%);
+    --floppy-icon-size: clamp(21px, 2rem - 1vw, 28px);
+    --dialog-width: min(353px, 100vw - 34px);
+    --dialog-floppy-icon-size: 39px;
+
+    --overlay-top: 25px;
+    --overlay-right: clamp(13px, 0.7rem + 0.8vw, 25px);
+
+    --border: 2px solid black;
+    --page-background:
+        repeating-linear-gradient(to right, transparent 0 2px, #d3d3d3 2px 4px),
+        repeating-linear-gradient(to bottom, transparent 0 2px,  #d3d3d3 2px 4px),
+        linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+
+    --contour-color: black;
+    --animation-fill-color: #ff0000;
+}
