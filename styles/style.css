@@ -126,39 +126,32 @@
   border: var(--border);
 }
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+.card:nth-child(2) .card-image img {
+  filter: blur(5px);
 }
 
-.overlay1 {
-  background-color: rgba(85, 10, 10, 0.35);
+.card:nth-child(3) .card-image img {
+  filter: sepia(50%);
 }
 
-.overlay2 {
-  background-color: rgba(196, 177, 177, 0.35);
+.card:nth-child(4) .card-image img {
+  filter: grayscale(80%);
 }
 
-.overlay3 {
-  background-color: rgba(77, 20, 88, 0.35);
+.card:nth-child(5) .card-image img {
+  filter: hue-rotate(45deg);
 }
 
-.overlay4 {
-  background-color: rgba(32, 117, 67, 0.35);
+.card:nth-child(6) .card-image img {
+  filter: contrast(150%);
 }
 
-.overlay5 {
-  background-color: rgba(255, 0, 0, 0.35);
+.card:nth-child(7) .card-image img {
+  filter: invert(20%);
 }
 
-.overlay6 {
-  background-color: rgba(149, 172, 18, 0.35);
-}
-
-.overlay7 {
-  background-color: rgba(255, 217, 0, 0.35);
+.card:nth-child(8) .card-image img {
+  filter: saturate(200%);
 }
 
 .like-icon {
