@@ -131,7 +131,7 @@
 }
 
 .card:nth-child(3) .card-image img {
-  filter: sepia(50%);
+  filter: sepia(50%) blur(1px);
 }
 
 .card:nth-child(4) .card-image img {
@@ -147,7 +147,7 @@
 }
 
 .card:nth-child(7) .card-image img {
-  filter: invert(20%);
+  filter: invert(20%) contrast(130%);
 }
 
 .card:nth-child(8) .card-image img {
