@@ -25,6 +25,7 @@
 }
 
 .header {
+  min-height: min-content;
   height: var(--header-height);
   background-color: white;
   border: var(--border);
