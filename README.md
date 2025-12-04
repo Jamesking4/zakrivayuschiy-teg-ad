@@ -1,1 +1,1 @@
-https://github.com/Jamesking4/zakrivayuschiy-teg-ad
+https://jamesking4.github.io/zakrivayuschiy-teg-ad/
